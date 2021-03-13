@@ -1,0 +1,10 @@
+/* styling for the head component */
+.header {
+    padding: 30px 0;
+    color: white;
+    background-color: silver;
+    width: 100%;
+    text-align: center;
+    border-bottom: 10px solid gray;
+    margin-bottom: 10px;
+}
