@@ -12,7 +12,7 @@ const SearchName = () => {
                     className="form-control mr-sm-2"
                     type="search"
                     placeholder="First Name Only"
-                    onChange={event => context.handleSearchChange(event)}
+                    onChange={event => context.handleSearch(event)}
                 />
             </form>
         </div>
