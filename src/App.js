@@ -1,17 +1,16 @@
 import React from 'react';
-import Wrapper from './components/Wrapper/wrapper';
-import Header from '.components/Header';
-import './App.css';
-import Main from './components/Main';
+import Mn from './components/Mn';
+import Wrap from './components/Wrap';
+import Head from './components/Head';
+import "./App.css";
 
-function App()
-{
-  return(
-    <div className='App'>
-    <Wrapper>
-    <Header/>
-    <Main/>
-    </Wrapper>
+function App() {
+  return (
+    <div className="App">
+   <Wrap>
+     <Head />
+     <Mn />
+   </Wrap>
     </div>
   );
 }
